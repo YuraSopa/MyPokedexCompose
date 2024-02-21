@@ -80,7 +80,7 @@ dependencies {
     // Timber
     implementation("com.jakewharton.timber:timber:4.7.1")
 
-    //
+    //Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
@@ -88,11 +88,14 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
 
-    // Coil
-    implementation("io.coil-kt:coil:1.1.1")
-    implementation("com.google.accompanist:accompanist-coil:0.7.0")
+    // Landscapist-coil3
+    implementation("io.coil-kt:coil-compose:2.5.0")
 
     //Dagger
     implementation("com.google.dagger:hilt-android:2.48")
+    implementation ("androidx.hilt:hilt-navigation-compose:1.1.0")
     kapt("com.google.dagger:hilt-android-compiler:2.48")
+
+    //Palette
+    implementation ("androidx.palette:palette-ktx:1.0.0")
 }
