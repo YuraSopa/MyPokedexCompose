@@ -88,7 +88,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
 
-    // Landscapist-coil3
+    // Coil
     implementation("io.coil-kt:coil-compose:2.5.0")
 
     //Dagger
